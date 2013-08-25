@@ -1,9 +1,9 @@
 <div>
 <div id="phrase" align="center">
-<table><tr>
-	<td>
-		Я хочу <form><animal ng-repeat="animal in animals"><input type="radio">{{animal}}</input></animal></form>
-	</td></tr>
-	</table>
+
+		<div id="iwant">Я хочу </div>
+		
+		<form id="chose"><div ng-repeat="animal in animals"><input type="radio" name="animal" checked ng-click="change()" id="{{animal.value}}"/><label for="{{animal.value}}">{{animal.value}}</label></div>
+	</form>
 </div>
 </div>
