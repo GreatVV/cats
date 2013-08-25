@@ -1,0 +1,15 @@
+<NotepadPlus>
+    <Session activeView="1">
+        <mainView activeIndex="0" />
+        <subView activeIndex="7">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="323" endPos="323" selMode="0" lang="HTML" encoding="-1" filename="C:\Projects\Cats\index.html" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1224" startPos="59" endPos="59" selMode="0" lang="HTML" encoding="-1" filename="C:\Projects\Cats\partials\main.html" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1224" startPos="691" endPos="691" selMode="0" lang="Javascript" encoding="-1" filename="C:\Projects\Cats\js\controllers.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="952" startPos="62" endPos="62" selMode="0" lang="Javascript" encoding="-1" filename="C:\Projects\Cats\js\directives.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="952" startPos="57" endPos="57" selMode="0" lang="Javascript" encoding="-1" filename="C:\Projects\Cats\js\filters.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="952" startPos="148" endPos="148" selMode="0" lang="Javascript" encoding="-1" filename="C:\Projects\Cats\js\services.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="992" startPos="339" endPos="353" selMode="0" lang="Javascript" encoding="-1" filename="C:\Projects\Cats\js\app.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1224" startPos="269" endPos="269" selMode="0" lang="CSS" encoding="-1" filename="C:\Projects\Cats\css\app.css" />
+        </subView>
+    </Session>
+</NotepadPlus>
