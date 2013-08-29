@@ -1,21 +1,21 @@
 <div>
 <div id="phrase" class="wrapper">
-	<div class="item">Я хочу</div>
-	<div class="item">
+	<div class="item firstPageWord">Я хочу</div>
+	<div class="item firstPageWord">
 		<form>	
 				<div ng-repeat="action in actions">
-					<input type="radio" name="action" checked ng-click="change()" id="{{action.value}}"/>
-					<label for="{{action.value}}">{{action.value}}</label>
+					<input type="radio" checked name="action" ng-change="changeWordForm()"  ng-model="$parent.action" id="{{action.id}}" ng-value="action.id"/>
+					<label for="{{action.id}}" >{{action.value}}</label>
 				</div>	
 		</form>
 	</div>
-	<div class="item">
+	<div class="item firstPageWord">
 		<form>	
 				<div ng-repeat="animal in animals">
-					<input type="radio" name="animal" checked ng-click="change()" id="{{animal.value}}"/>
-					<label for="{{animal.value}}">{{animal.value}}</label>
+					<input type="radio" checked name="animal"  ng-change="changeAnimal()"  ng-model="$parent.animal" id="{{animal.id}}" ng-value="animal.id"/>
+					<label for="{{animal.id}}">{{animal.value}}</label>
 				</div>	
 		</form>
 	</div>
-	<div class="item" id="button"><a href="#/search">СЕЙЧАС!!!</a></div>
+	<div class="item firstPageWord" id="button"><a href="#/search">сильно</a></div>
 </div>

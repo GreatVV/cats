@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	background-color: grey;
-	background-image:url("http://1.bp.blogspot.com/-8kXo0pkD8rw/TnjzI0Wb2SI/AAAAAAAAAf0/_AK3B5GLxyU/s1600/Photo%2BSep%2B18%252C%2B7%2B43%2B09%2BAM.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-touch-callout: none;
@@ -12,14 +11,42 @@ body {
     user-select: none;
     overflow-y:hidden;
 	overflow-x:hidden;
+
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	font-family: 'Roboto', sans-serif;
+	
+	color: orange;
+	font-weight: 200;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color:orange;
+}
+
+a:visited {
+	color:#FAA;
+}
+
+a:active {
+	color:yellow;
 }
 
 #phrase {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 3em;
-	color: rgb(255, 165, 0);
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-weight: 200;
+
 	padding: 2em 0 0 1em;
 	position: absolute;
+
+}
+
+.firstPageWord {
+	padding: 10px 10px 10px 10px;
 }
 
 .wrapper{
@@ -32,12 +59,12 @@ body {
 }
 
 .searchPhoto {
-	width: 200px;
-	height: 200px;
-}
+	padding: 10px;
+	outline: 5px solid #666;
+	margin: 10px;
 
-.searchPhoto img {
-	width: 200px;
+	width: 100px;
+	height: 100px;
 }
 
 input[type="radio"]  {
@@ -45,11 +72,11 @@ input[type="radio"]  {
 }
 
 input[type="radio"] + label{
-	color: rgba(255, 165, 0,0.5);
+	color: rgba(255, 255, 255, 0.5);
 }
 
 input[type="radio"]:checked + label{
-	color: rgba(255, 165, 0,1);
+	color: orange;
 }
 
 input[type="submit"]  {
@@ -57,7 +84,7 @@ input[type="submit"]  {
 }
 
 input[type="submit"] + label{
-	color: rgba(255, 165, 0,0.5);
+	color: rgba(255, 255, 255,0.5);
 	text-align:left;
 	float:left;
 }

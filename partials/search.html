@@ -1,6 +1,6 @@
 <div>
 	<a href="#/main">Назад</a>
 	<div ng-repeat="animal in animals" class="wrapper">
-		<div class="item searchPhoto"><a href="#/description"><img src="{{animal.images[0].photo}}">{{animal.name}}</img></a></div>
+		<a href="#/description"><div class="item searchPhoto" style="background-image: url({{animal.images[0].photo}}); background-size: cover;">{{animal.name}}</div></a>
 	</div>
 </div>
