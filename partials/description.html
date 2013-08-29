@@ -1,0 +1,6 @@
+<div id="description">
+	<a href="#/main">Назад</a>
+	<div class="img" ng-repeat="image in images" ng-click="onImageClick(image)" ng-class="{active : isSelected(image)}">
+		<img src="{{image.photo}}" alt="Фото животного"></img>
+	</div>
+</div>

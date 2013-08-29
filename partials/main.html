@@ -1,9 +1,21 @@
 <div>
-<div id="phrase" align="center">
-
-		<div id="iwant">Я хочу </div>
-		
-		<form id="chose"><div ng-repeat="animal in animals"><input type="radio" name="animal" checked ng-click="change()" id="{{animal.value}}"/><label for="{{animal.value}}">{{animal.value}}</label></div>
-	</form>
-</div>
+<div id="phrase" class="wrapper">
+	<div class="item">Я хочу</div>
+	<div class="item">
+		<form>	
+				<div ng-repeat="action in actions">
+					<input type="radio" name="action" checked ng-click="change()" id="{{action.value}}"/>
+					<label for="{{action.value}}">{{action.value}}</label>
+				</div>	
+		</form>
+	</div>
+	<div class="item">
+		<form>	
+				<div ng-repeat="animal in animals">
+					<input type="radio" name="animal" checked ng-click="change()" id="{{animal.value}}"/>
+					<label for="{{animal.value}}">{{animal.value}}</label>
+				</div>	
+		</form>
+	</div>
+	<div class="item" id="button"><a href="#/search">СЕЙЧАС!!!</a></div>
 </div>

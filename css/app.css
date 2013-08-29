@@ -1,5 +1,4 @@
 body {
-	padding: 0;
 	margin: 0;
 	background-color: grey;
 	background-image:url("http://1.bp.blogspot.com/-8kXo0pkD8rw/TnjzI0Wb2SI/AAAAAAAAAf0/_AK3B5GLxyU/s1600/Photo%2BSep%2B18%252C%2B7%2B43%2B09%2BAM.jpg");
@@ -11,40 +10,34 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-table {
-	width: 100%;
-	height: 100%;
-}
-
-td {
-text-align: center;
-vertical-align: middle;
+    overflow-y:hidden;
+	overflow-x:hidden;
 }
 
 #phrase {
 	font-family: 'PT Sans', sans-serif;
-	font-size: 5em;
-	text-align: center;
-	vertical-align: middle;
-	font-weight: bold;
-	position: absolute;
-	overflow: auto;
-	width: 100%;
-	height: 100%;
-	display: table-cell;
+	font-size: 3em;
 	color: rgb(255, 165, 0);
-	
+	padding: 2em 0 0 1em;
+	position: absolute;
 }
 
-#iwant {
-	float:left;
-	line-height: 2em;
+.wrapper{
+    /*overflow:hidden; /*make sure the wrapper has no dimension*/
+    width: 100%;
 }
 
-#chose {
-	text-align:left;
+.item{
+    float:left; 
+}
+
+.searchPhoto {
+	width: 200px;
+	height: 200px;
+}
+
+.searchPhoto img {
+	width: 200px;
 }
 
 input[type="radio"]  {
@@ -57,4 +50,29 @@ input[type="radio"] + label{
 
 input[type="radio"]:checked + label{
 	color: rgba(255, 165, 0,1);
+}
+
+input[type="submit"]  {
+	display:none;
+}
+
+input[type="submit"] + label{
+	color: rgba(255, 165, 0,0.5);
+	text-align:left;
+	float:left;
+}
+
+#description {
+	margin: 3% 75%;
+	width: 20%;
+	height: 80%;
+}
+
+.img {
+	height: 30%;
+}
+
+img {
+	width: inherit;
+	height: inherit;
 }
